@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "title": "Sky Ring",
+    "category": "Land",
+    "location": "Kochi",
+    "description": "Shoot up a sky-high tower for a birds-eye view of Wonderla Kochi!",
+    "image": "src/assets/wblr.png"
+  },
+  {
+    "id": 2,
+    "title": "Recoil",
+    "category": "Land",
+    "location": "Bengaluru",
+    "description": "India's first-ever action-packed reverse looping roller coaster ride!",
+    "image": "src/assets/wblr.png"
+  },
+  {
+    "id": 3,
+    "title": "Mission Interstellar",
+    "category": "Land",
+    "location": "Hyderabad",
+    "description": "Blast through cosmic chaos on a wild, out-of-this-world space ride!",
+    "image": "src/assets/wblr.png"
+  },
+  {
+    "id": 4,
+    "title": "Equinox",
+    "category": "Land",
+    "location": "Bhubaneswar",
+    "description": "A thrill monster that rotates 360 degrees in a group of 3!",
+    "image": "src/assets/wblr.png"
+  },
+  {
+    "id": 5,
+    "title": "Space Gun",
+    "category": "Land",
+    "location": "Kochi",
+    "description": "See the world upside-down, dangling from high up above the ground!",
+    "image": "src/assets/wblr.png"
+  },
+  {
+    "id": 6,
+    "title": "Y-Scream",
+    "category": "Land",
+    "location": "Bengaluru",
+    "description": "Strap in tight to swing, spin and scream on this dizzying 360-degree thrill fest!",
+    "image": "src/assets/wblr.png"
+  },
+  {
+    "id": 7,
+    "title": "G Fall",
+    "category": "Land",
+    "location": "Hyderabad",
+    "description": "Brace yourself for a heart-pounding, high-speed plunge into a dizzying freefall!",
+    "image": "src/assets/wblr.png"
+  },
+  {
+    "id": 8,
+    "title": "Flash Tower",
+    "category": "Land",
+    "location": "Bengaluru",
+    "description": "Experience a thrilling free-fall from a dizzying height!",
+    "image": "src/assets/wblr.png"
+  },
+  {
+    "id": 9,
+    "title": "Crazy Cars",
+    "category": "Land",
+    "location": "Kochi",
+    "description": "Bump and zoom around the arena in these crazy, fun-filled cars!",
+    "image": "src/assets/wblr.png"
+  },
+  {
+    "id": 10,
+    "title": "Mushroom Coaster",
+    "category": "Kids",
+    "location": "Bhubaneswar",
+    "description": "A gentle and fun roller coaster ride perfect for the little ones!",
+    "image": "src/assets/wblr.png"
+  },
+  {
+    "id": 11,
+    "title": "Pirate Ship",
+    "category": "Land",
+    "location": "Hyderabad",
+    "description": "Swing back and forth on a giant pirate ship for a classic thrill!",
+    "image": "src/assets/wblr.png"
+  },
+  {
+    "id": 12,
+    "title": "Wonder Splash",
+    "category": "Water",
+    "location": "Bengaluru",
+    "description": "Plunge down a steep water slide into a refreshing splash pool!",
+    "image": "src/assets/wblr.png"
+  },
+  {
+    "id": 13,
+    "title": "Dungeon Ride",
+    "category": "Land",
+    "location": "Kochi",
+    "description": "Brave the dark depths of the dungeon in this spooky ride!",
+    "image": "src/assets/wblr.png"
+  },
+  {
+    "id": 14,
+    "title": "Mini Pirate Ship",
+    "category": "Kids",
+    "location": "Bhubaneswar",
+    "description": "A smaller version of the classic pirate ship, perfect for kids!",
+    "image": "src/assets/wblr.png"
+  }
+]
