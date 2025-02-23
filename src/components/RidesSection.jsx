@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from "react";
 import RideCard from "./RideCard";
 import CarouselControls from "./CarouselControls";
