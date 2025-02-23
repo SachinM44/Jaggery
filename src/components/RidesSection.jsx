@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import RideCard from "./RideCard";
 import CarouselControls from "./CarouselControls";
 import CategorySelector from "./CategorySelector";
-import ridesData from "../data/rides.json";
+import ridesData from "../Data/rides.json";
 import RideDetails from "./RideDetails";
 
 const RidesSection = () => {
