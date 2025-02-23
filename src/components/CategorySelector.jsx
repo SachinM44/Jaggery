@@ -3,8 +3,8 @@ import { motion } from "framer-motion";
 
 const CategorySelector = ({ onCategoryChange, currentCategory }) => {
   return (
-    <div className="absolute left-0 top-0 w-[290px] h-[610px] pt-">
-      <svg viewBox="0 0 300 600" className="w-full h-full">
+    <div className="absolute left-0 top-1 w-[322px] h-[610px] pt-">
+      <svg viewBox="0 0 330 600" className="w-full h-full">
         <defs>
           <linearGradient id="yellowGradient" x1="100%" y1="0%" x2="0%" y2="0%">
             <stop offset="0%" style={{ stopColor: "#FFFFFF", stopOpacity: 0 }} />
@@ -14,7 +14,12 @@ const CategorySelector = ({ onCategoryChange, currentCategory }) => {
           </linearGradient>
         </defs>
 
-        <path d="M 11,25 A 150,150 0 0 1 0,425" fill="none" stroke="white" strokeWidth="70" />
+        <path
+          d="M 11,25 A 150,150 0 0 1 0,425"
+          fill="none"
+          stroke="white"
+          strokeWidth="70"
+        />
 
         <motion.path
           d="M 11,25 A 150,150 0 0 1 0,425"
@@ -24,7 +29,11 @@ const CategorySelector = ({ onCategoryChange, currentCategory }) => {
           strokeDasharray="350.5987755982989"
           animate={{
             strokeDashoffset:
-              currentCategory === "Land" ? 0 : currentCategory === "Water" ? -174.53292519943296 : -349.0658503988659,
+              currentCategory === "Land"
+                ? 0
+                : currentCategory === "Water"
+                ? -174.53292519943296
+                : -349.0658503988659,
           }}
           transition={{
             type: "spring",
@@ -103,14 +112,14 @@ const CategorySelector = ({ onCategoryChange, currentCategory }) => {
               </motion.g>
 
               <text
-                x={name === "Land" ? "215" : name === "Kids" ? "220" : "248"}  
+                x={name === "Land" ? "215" : name === "Kids" ? "220" : "268"}  
                 y={name === "Land" ? y - 15 : name === "Kids" ? y + 15 : y - 15}
                 className="text-xl font-semibold fill-white"
               >
                 {name}
               </text>
               <g
-                transform={`translate(${name === "Land" ? "230" : name === "Kids" ? "210" : "248"}, ${
+                transform={`translate(${name === "Land" ? "230" : name === "Kids" ? "210" : "268"}, ${
                   name === "Land" ? y + 10 : name === "Kids" ? y + 45 : y + 10
                 })`}
               >
